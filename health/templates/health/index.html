@@ -1,0 +1,11 @@
+{% extends 'health/base.html' %}
+
+{% block main %}
+    <div class = "index-container">
+        <h2>A saúde física e mental não pode ser ignorada. A Healty busca
+            aumentar o seu bem estar, a saúde é direito de todos!
+        </h2>
+        <span>Com a Healthy você pode monitorar o seu IMC </span>
+        <button><a href="{% url 'imc' %}"> Calcular IMC </a></button>
+    </div>
+{% endblock %}

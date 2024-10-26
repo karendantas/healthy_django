@@ -1,0 +1,14 @@
+{% extends 'health/base.html' %}
+
+{% block main %}
+    <form class = "imc-form">
+        <input 
+            id = "height-input" 
+            placeholder = "Insira sua altura" />
+        <input 
+            id = "weight-input"
+            placeholder = "Insira seu peso" />
+        <button type="submit"> Calcular IMC </button>
+    </form>
+    <div class="imc-result disabled"></div>
+{% endblock %}
